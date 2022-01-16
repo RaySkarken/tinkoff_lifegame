@@ -28,7 +28,7 @@ class Cell:
 
     def __str__(self):
         if self._state:
-            return "*"
+            return "#"
         else:
             return " "
 
